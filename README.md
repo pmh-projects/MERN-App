@@ -110,7 +110,7 @@ Główna część aplikacji wykonana z pomocą Axios i React.
 
 Umożliwia przejrzenie zawartości bazy danych Mongoose.
 Do weryfikacji stanu faktycznego i pozycji danych w bazie wykorzystano niezawodne i szybkie narzędziee MongoDB Compass.
-Dla poprawienia przejrzystości lista jest rozwijana. Funkcje CRUD działają dla każdej pozycji z osobna i są zabezpieczone Alert'ami przed wykonaniem przypadkowych czynności.
+Dla poprawienia przejrzystości lista jest rozwijana. Funkcje CRUD działają dla każdej pozycji z osobna i są zabezpieczone Alert'ami przed wykonaniem przypadkowych nieporządanych czynności.
 <p align="center">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/baza.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/baza2.jpg" width="50%">
@@ -120,7 +120,9 @@ Dla poprawienia przejrzystości lista jest rozwijana. Funkcje CRUD działają dl
 <p align="right">(<a href="#top">wróc do góry</a>)</p>
                                                                                                                       
 ### Dodawanie 
-     
+  
+Dla funkcji dodawania został utworzony osobny dedykowany formularz, który widoczny jest z poziomu strony jako okno z dwoma polami.
+Po zatwierdzeniu dodawanej pozycji pojawia się ona w bazie danych Mongoose oraz na liście, która jest po prawej stronie na tej samej stronie.
 <p align="center">                                                                                       
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/5.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/mongocompass.jpg" width="50%">
@@ -153,6 +155,7 @@ Axios.post("http://localhost:3000/dodaj", {eqName: eqName, eqNum: eqNum })
                                                                                                                                 
 ### Edycja
  
+Aby edytować żądaną pozycję należy rozwinąć listę za pomocą button'a "ROZWIŃ". Edytowana pozycja jest widoczna automatycznie na liście.                                
 <p align="center">                                                                                                
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/7.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/8.jpg" width="50%">
@@ -175,7 +178,8 @@ const updateNum = (id) => {
 <p align="right">(<a href="#top">wróc do góry</a>)</p>
                                                                                                                            
 ### Usuwanie
-                                                                                            
+
+Podbnie jest w wypadku żądania usuwania. Tak samo należy rozwinąć listę i użyć specjalnie do tego utworzonego button'u "Usuń".
 <p align="center">                                                                                            
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/9.jpg" width="50%">
 </p>
@@ -194,10 +198,12 @@ const usunEq = (id) => {
 };
 ```
 
+Obsługa czynności CRUD zakodowana została w komponencie database.js po stronie klienta oraz index.js po stronie serwera. Użyto również schematu moongose (models/eq.js) reprezentującego strukturę dokumentu do interakcji z bazą danych.
 <p align="right">(<a href="#top">wróc do góry</a>)</p>
                                 
 ## Informacje
 
+Dodatkowo udostępniono stronę, na której widoczne są informacje o aktualnej działalności. Do zbudowania komponentu wykorzystano narzędzia Bootstrap: Card oraz Accordion.
 <p align="center">                                                                                          
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/10.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/13.jpg" width="50%">
@@ -207,6 +213,8 @@ const usunEq = (id) => {
                                                                                                                      
 ## Statystyki
 
+W celu ulepszenia funkcjonalności strony została utworzona strona, na której można przejrzeć statystyki z działalności.
+W tym celu wykorzystano dodatkowej biblioteki MDBreact, która oferują dodatkowe opcje wizualizacji.
 <p align="center">                                                                                         
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/14.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/15.jpg" width="50%">
