@@ -68,7 +68,8 @@ Na każdej stronie jest widoczny Slider-Carousel, Navbar (menu) oraz Footer.
 * [Express.js](https://expressjs.com/)
 * [React.js](https://reactjs.org//)
 * [Node.js](https://nodejs.org/)
-* [Bootstrap](https://getbootstrap.com)
+* [Bootstrap](https://getbootstrap.com)                       
+* [MDBReact](https://mdbootstrap.com/)
 * [Visual Studio Code](https://code.visualstudio.com/)
                                 
 ## Strona główna
@@ -121,7 +122,7 @@ Dla poprawienia przejrzystości lista jest rozwijana. Funkcje CRUD działają dl
                                                                                                                       
 ### Dodawanie 
   
-Dla funkcji dodawania został utworzony osobny dedykowany formularz, który widoczny jest z poziomu strony jako okno z dwoma polami.
+Dla funkcji dodawania został utworzony osobny dedykowany formularz, który widoczny jest z poziomu strony jako okno z dwoma polami oraz button'em "Dodaj".
 Po zatwierdzeniu dodawanej pozycji pojawia się ona w bazie danych Mongoose oraz na liście, która jest po prawej stronie na tej samej stronie.
 <p align="center">                                                                                       
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/5.jpg" width="50%">
@@ -179,7 +180,7 @@ const updateNum = (id) => {
                                                                                                                            
 ### Usuwanie
 
-Podbnie jest w wypadku żądania usuwania. Tak samo należy rozwinąć listę i użyć specjalnie do tego utworzonego button'u "Usuń".
+Podobnie jest w wypadku żądania usuwania. Tak samo należy rozwinąć listę i użyć specjalnie do tego utworzonego button'u "Usuń".
 <p align="center">                                                                                            
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/9.jpg" width="50%">
 </p>
@@ -203,7 +204,7 @@ Obsługa czynności CRUD zakodowana została w komponencie database.js po stroni
                                 
 ## Informacje
 
-Dodatkowo udostępniono stronę, na której widoczne są informacje o aktualnej działalności. Do zbudowania komponentu wykorzystano narzędzia Bootstrap: Card oraz Accordion.
+Dodatkowo udostępniono stronę, na której widoczne są informacje o aktualnej działalności. Do zbudowania komponentu (info.js) wykorzystano narzędzia Bootstrap: Card oraz Accordion.
 <p align="center">                                                                                          
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/10.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/13.jpg" width="50%">
@@ -214,7 +215,7 @@ Dodatkowo udostępniono stronę, na której widoczne są informacje o aktualnej 
 ## Statystyki
 
 W celu ulepszenia funkcjonalności strony została utworzona strona, na której można przejrzeć statystyki z działalności.
-W tym celu wykorzystano dodatkowej biblioteki MDBreact, która oferują dodatkowe opcje wizualizacji.
+W tym celu utworzono dwa komoponenty stats.js i stats2.js oraz wykorzystano dodatkową bibliotekę MDBreact, która oferują dodatkowe opcje wizualizacji.
 <p align="center">                                                                                         
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/14.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/15.jpg" width="50%">
