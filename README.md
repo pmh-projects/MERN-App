@@ -1,3 +1,4 @@
+
 <div id="top"></div>
 
 
@@ -64,6 +65,7 @@ Umożliwia również przegląd informacji i statystyk dotyczących działalnośc
 * [Bootstrap](https://getbootstrap.com)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
+<p align="right">(<a href="#top">wróc do góry</a>)</p>
 ## Strona główna
 
 <p align="center">
@@ -71,6 +73,8 @@ Umożliwia również przegląd informacji i statystyk dotyczących działalnośc
   <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/1f.jpg" width="50%">
 </p>
 
+<p align="right">(<a href="#top">wróc do góry</a>)</p>
+                                
 ## Menu strony
 
 <p align="center">
@@ -79,6 +83,8 @@ Umożliwia również przegląd informacji i statystyk dotyczących działalnośc
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/routes.jpg" width="50%">
 </p>
 
+<p align="right">(<a href="#top">wróc do góry</a>)</p>
+                                
 ## Baza danych
 
 ### Lista                                                                                            
@@ -88,7 +94,9 @@ Umożliwia również przegląd informacji i statystyk dotyczących działalnośc
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/baza2.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/3.jpg" width="50%">
 </p>          
-                                                                                       
+ 
+<p align="right">(<a href="#top">wróc do góry</a>)</p>
+                                                                                                                      
 ### Dodawanie 
      
 <p align="center">                                                                                       
@@ -98,7 +106,9 @@ Umożliwia również przegląd informacji i statystyk dotyczących działalnośc
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/dodano.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/nie_dodano.jpg" width="50%">
 </p>  
-                                                                                                
+
+<p align="right">(<a href="#top">wróc do góry</a>)</p>
+                                                                                                                                
 ### Edycja
  
 <p align="center">                                                                                                
@@ -106,7 +116,9 @@ Umożliwia również przegląd informacji i statystyk dotyczących działalnośc
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/8.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/edytuj.jpg" width="50%">
 </p>
-                                                                                            
+ 
+<p align="right">(<a href="#top">wróc do góry</a>)</p>
+                                                                                                                           
 ### Usuń
                                                                                             
 <p align="center">                                                                                            
@@ -114,17 +126,22 @@ Umożliwia również przegląd informacji i statystyk dotyczących działalnośc
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/usun.jpg" width="50%">
 </p>
 
-
+<p align="right">(<a href="#top">wróc do góry</a>)</p>
+                                
 ## Informacje
 
 <p align="center">                                                                                          
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/10.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/13.jpg" width="50%">
 </p>   
-                                                                                        
+
+<p align="right">(<a href="#top">wróc do góry</a>)</p>
+                                                                                                                     
 ## Statystyki
 
 <p align="center">                                                                                         
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/14.jpg" width="50%">
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/15.jpg" width="50%">
 </p>
+
+<p align="right">(<a href="#top">wróc do góry</a>)</p>                            
