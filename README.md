@@ -18,7 +18,11 @@ Paweł Mach
 <br><br>
   </p>
 </div>
-
+                 
+<p align="center">
+<img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/fire_1f525.png" width="10%"><br>
+<b><i>EqOnFire</i></b>
+</p>        
 
 <!-- TABLE OF CONTENTS -->
 <details>
