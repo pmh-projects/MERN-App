@@ -107,7 +107,7 @@ Routing obsługiwany jest poprzez BrowserRouter z biblioteki react-router-dom:
                                 
 ## Baza danych
 
-Główna część aplikacji wykonana z pomocą Axios i React.                             
+Główna część aplikacji wykonana z pomocą modułu Axios i biblioteki React.                             
 ### Lista                                                                                            
 
 Umożliwia przejrzenie zawartości bazy danych Mongoose.
