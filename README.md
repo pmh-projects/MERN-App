@@ -90,7 +90,8 @@ Menu strony wykonane zostało z użyciem Navbar Bootstrap, dzięki temu jest wys
 <img src="https://github.com/pmh-projects/mern/blob/main/screenshots/1a.jpg" width="50%">
 
 Z pozycji menu można przejść do wszystkich podstron:
-Strony głównej, bazy danych, informacji oraz statystyk.                                                                                        
+Strony głównej, bazy danych, informacji oraz statystyk.
+Routing obsługiwany jest poprzez BrowserRouter z biblioteki react-router-dom:
 ```
 <Routes>
           <Route exact path="/" element={<Home/>} />
