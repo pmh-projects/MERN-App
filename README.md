@@ -6,12 +6,7 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png" alt="Logo" width="50%"">
   </a>
 <h3 align="center">Aplikacja MERN</h3>
-
 <p align="center">
-Informatyka i ekonometria
-<br>
-specj. Aplikacje informatyczne w biznesie
-<br>
 Grupa N32-31
 <br>
 Paweł Mach
